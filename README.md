@@ -20,11 +20,11 @@ A) You can run it from your browser with :
 http://localhost/queue/
 
 B) If you use vhosts then create vhost :
-
+```
 <VirtualHost *:80>
    DocumentRoot "PATH_TO_SOURCE_CODE/queue"
    ServerName queue.local
-
+   
    # This should be omitted in the production environment
    SetEnv APPLICATION_ENV development                    
    <Directory "PATH_TO_SOURCE_CODE/queue">
@@ -34,7 +34,7 @@ B) If you use vhosts then create vhost :
        Allow from all
    </Directory>
 </VirtualHost>
-
+```
 Add this line to hosts file (if you use Windows you can find the file here "C:\Windows\System32\drivers\etc\hosts") :
 127.0.0.1	queue.local
 
