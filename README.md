@@ -8,9 +8,9 @@ We have a council who would like to use an application to queue people at the re
 desk. The receptionist should be able to select the service (example provided below) and
 take the customer details depending on the customer type:<br><br>
 
-• Citizen: title, first name and last name fields should be displayed
-• Organisation: organisation name field should be visible
-• Anonymous: no input fields should be visible
+• Citizen: title, first name and last name fields should be displayed<br>
+• Organisation: organisation name field should be visible<br>
+• Anonymous: no input fields should be visible<br>
 
 # How to run :
 
