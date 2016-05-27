@@ -1,9 +1,7 @@
-# --------------------------------------------------------------------
 # QueueApp Used frameworks :
 
 This application uses PHP framework CodeIgnitor 3.0.6 and CSS framework Bootstrap 3.3.6
 
-# --------------------------------------------------------------------
 # Application Description :
 
 We have a council who would like to use an application to queue people at the reception
@@ -14,7 +12,6 @@ take the customer details depending on the customer type:
 • Organisation: organisation name field should be visible
 • Anonymous: no input fields should be visible
 
-# --------------------------------------------------------------------
 # How to run :
 
 Download the QueueApp to your web server.
@@ -44,7 +41,6 @@ Add this line to hosts file (if you use Windows you can find the file here "C:\W
 Afterwars restart your web server and then you can run it in browser with :
 queue.local
 
-# --------------------------------------------------------------------
 # List of Services :
 
 Path to service list can be changed/updated in /application/config/config
@@ -52,7 +48,6 @@ the default filepath is :
 
 $config['service_list_path'] = APPPATH . '../service/service.json';
 
-# --------------------------------------------------------------------
 # Customers Data :
 
 This application stores the customers data unless you removed it within application or you do it manually.
