@@ -16,7 +16,7 @@ take the customer details depending on the customer type:
 
 Download the QueueApp to your web server.
 
-A) You can run it from your browser with :
+A) You can run it from your browser with :<br>
 http://localhost/queue/
 
 B) If you use vhosts then create vhost :
